@@ -17,7 +17,7 @@ Run `npm install .` to install all development dependencies. After installing th
 
 The boilerplate has pretty simple file structure:
 
-* `/assets/` - a folder containing the css files, images and javascript files for the theme. There is also the folders `ts/` and `scss/` inside which are used for development with SCSS and TypeScript.
+* `/assets/` - a folder containing the css files, images and javascript files for the theme. There are also the folders `ts/` and `scss/` inside which are used for development with SCSS and TypeScript.
 
 * `/.gitignore` - contains files which should be ignored in your git repository. Feel free to adjust this according to your project.
 
@@ -45,3 +45,6 @@ There are three gulp tasks currently defined:
 
 This theme is ready to be installed. Feel free to copy the theme inside your `wp-contents/themes` folder or just zip it and upload it via the dashboard.
 
+#### License
+
+This theme, as any other WordPress theme or plugin is licensed under the GPL.
