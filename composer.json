@@ -1,0 +1,18 @@
+{
+    "name": "vendor/wpboilerplate",
+    "description": "",
+    "keywords": [
+        "wordpress",
+        "theme"
+    ],
+    "authors": [
+        {
+            "name": "Kristiyan Katsarov",
+            "homepage": "https://katsarov.info"
+        }
+    ],
+    "type": "wordpress-theme",
+    "require": {
+        "php": ">=5.6"
+    }
+}
