@@ -21,9 +21,6 @@ function do_ts(cb) {
 exports.css = do_scss
 exports.js = do_ts
 exports.watch = function () {
-    watch([
-        '**/*',
-        '!css',
-        '!node_modules/*'
-    ], gulp.parallel(['scss', 'ts']));
+    watch('assets/scss/**/*.scss', do_scss);
+    watch('assets/ts/**/*.ts', do_ts);
 }
